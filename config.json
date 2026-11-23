@@ -1,0 +1,31 @@
+{
+  "location": {
+    "name": "Okayama University (editable)",
+    "latitude": 34.69,
+    "longitude": 133.92,
+    "timezone": "Asia/Tokyo"
+  },
+  "risk_model": {
+    "rain_6h_mm_ref": 30,
+    "rain_intensity_mm_h_ref": 10,
+    "soil_moisture_ref": 0.4,
+    "infiltration_drop_ref": 0.3,
+    "weights": {
+      "rain_6h": 0.3,
+      "rain_intensity": 0.25,
+      "soil_moisture": 0.2,
+      "infiltration_drop": 0.25
+    },
+    "medium_threshold": 35,
+    "high_threshold": 65
+  },
+  "actuator": {
+    "mode": "simulation",
+    "serial_port": "COM3",
+    "baudrate": 115200,
+    "max_duration_s": 2.0,
+    "max_cycles": 2,
+    "min_battery_percent": 40,
+    "min_battery_wh": 1.0
+  }
+}

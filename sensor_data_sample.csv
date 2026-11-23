@@ -1,0 +1,4 @@
+timestamp,soil_moisture,infiltration_rate_ml_min,battery_percent,battery_wh
+2026-11-23T09:00:00+09:00,0.28,120,92,8.5
+2026-11-23T10:00:00+09:00,0.31,116,90,8.3
+2026-11-23T11:00:00+09:00,0.35,105,88,8.1
